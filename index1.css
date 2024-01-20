@@ -1,0 +1,25 @@
+.button{
+    background-color: green;
+    width: fit-content;
+    cursor: pointer;
+}
+.Name, .Mobile, .Email, .Password{
+   background-color: rgb(233, 150, 43); 
+   width: fit-content;
+   color: black;
+   }
+
+input[type=text]:focus{
+    background-color: lightseagreen;
+    
+}
+input[type=password]:focus{
+    background-color: red;
+}
+input[type=button]:focus{
+    background-color: green;
+    cursor: pointer;
+    
+}
+
+
